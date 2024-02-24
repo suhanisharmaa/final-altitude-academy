@@ -23,3 +23,8 @@
 span{
     margin-left: 42px;
 }
+
+/* Responsive Media Query */
+@media screen and (max-width: 768px) {
+    
+}

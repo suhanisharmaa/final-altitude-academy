@@ -295,3 +295,85 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+
+/* Responsive Media Query */
+@media screen and (max-width: 768px) {
+  .home_img > img{
+    height: 330px;
+  }
+  .home_img > button{
+    font-size: 10px;
+    padding: 8px 14px;
+  }
+  .top_h {
+  margin: 60px 50px;
+  }
+  .top_para {
+  margin: 30px 20px;
+  font-size: medium;
+  }
+  .steps_main {
+  height: auto;
+  padding-bottom: 30px;
+  }
+  .steps {
+  flex-direction: column;
+  }
+  .steps_left,
+  .steps_right {
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+  .steps_left {
+  margin-top: 30px;
+  }
+  .steps_left > h3 {
+  font-size: 1.2rem;
+  }
+  .steps_left > button {
+  padding: 8px;
+  font-size: 14px;
+  }
+  .steps_right > img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  }
+  .why {
+  text-align: center;
+  }
+  .why > h2 {
+  margin: 30px;
+  font-size: 24px;
+  }
+  .whys {
+  flex-direction: column;
+  margin: 30px;
+  }
+  .why_option {
+  margin: 20px;
+  }
+  .courses_bar > h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  }
+  .courses_bar > p {
+  margin: 15px 50px;
+  font-size: medium;
+  }
+  .content {
+  max-height: 200px;
+  max-width: 350px;
+  }
+  .course img {
+  height: 150px;
+  }
+  .course h3 {
+  font-size: 20px;
+  }
+  .course p {
+  font-size: 16px;
+  }
+}  

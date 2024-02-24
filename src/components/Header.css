@@ -66,3 +66,42 @@ ul > li{
     display: block; 
   }
 
+  /* Responsive */
+  @media only screen and (max-width: 768px) {
+    .header_logo {
+      margin-top: 2px;
+      margin-left: 2px;
+      margin-right: -45px;
+    }
+    
+    .header_option {
+      margin-right: 6px;
+      font-size: 10px;
+    }
+    .header_contact{
+        margin: 13px;
+    }
+    #call:hover > ul {
+      right: 140px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .header_logo {
+      margin: 10px;
+      margin-right: 5px;
+    }
+    
+    .header_option {
+      margin: 15px;
+      font-size: 14px;
+    }
+    
+    .header_nav {
+      margin-left: 10px;
+    }
+    
+    #call:hover > ul {
+      right: 80px;
+    }
+  }
